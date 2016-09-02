@@ -1,0 +1,525 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A946D2E31D78499C00A01805 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A946D2E21D78499C00A01805 /* main.m */; };
+		A946D2E61D78499C00A01805 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A946D2E51D78499C00A01805 /* AppDelegate.m */; };
+		A946D2E91D78499C00A01805 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A946D2E81D78499C00A01805 /* ViewController.m */; };
+		A946D2EC1D78499C00A01805 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A946D2EA1D78499C00A01805 /* Main.storyboard */; };
+		A946D2EE1D78499C00A01805 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A946D2ED1D78499C00A01805 /* Assets.xcassets */; };
+		A946D2F11D78499C00A01805 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A946D2EF1D78499C00A01805 /* LaunchScreen.storyboard */; };
+		A946D2FC1D78499C00A01805 /* ButtonMultipleClickTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A946D2FB1D78499C00A01805 /* ButtonMultipleClickTests.m */; };
+		A946D3071D78499C00A01805 /* ButtonMultipleClickUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = A946D3061D78499C00A01805 /* ButtonMultipleClickUITests.m */; };
+		A946D3161D784A9F00A01805 /* UIButton+MultipleClick.m in Sources */ = {isa = PBXBuildFile; fileRef = A946D3151D784A9F00A01805 /* UIButton+MultipleClick.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A946D2F81D78499C00A01805 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A946D2D61D78499C00A01805 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A946D2DD1D78499C00A01805;
+			remoteInfo = ButtonMultipleClick;
+		};
+		A946D3031D78499C00A01805 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A946D2D61D78499C00A01805 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A946D2DD1D78499C00A01805;
+			remoteInfo = ButtonMultipleClick;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A946D2DE1D78499C00A01805 /* ButtonMultipleClick.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ButtonMultipleClick.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A946D2E21D78499C00A01805 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A946D2E41D78499C00A01805 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		A946D2E51D78499C00A01805 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		A946D2E71D78499C00A01805 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		A946D2E81D78499C00A01805 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		A946D2EB1D78499C00A01805 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A946D2ED1D78499C00A01805 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A946D2F01D78499C00A01805 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A946D2F21D78499C00A01805 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A946D2F71D78499C00A01805 /* ButtonMultipleClickTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ButtonMultipleClickTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A946D2FB1D78499C00A01805 /* ButtonMultipleClickTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ButtonMultipleClickTests.m; sourceTree = "<group>"; };
+		A946D2FD1D78499C00A01805 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A946D3021D78499C00A01805 /* ButtonMultipleClickUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ButtonMultipleClickUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A946D3061D78499C00A01805 /* ButtonMultipleClickUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ButtonMultipleClickUITests.m; sourceTree = "<group>"; };
+		A946D3081D78499C00A01805 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A946D3141D784A9F00A01805 /* UIButton+MultipleClick.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+MultipleClick.h"; sourceTree = "<group>"; };
+		A946D3151D784A9F00A01805 /* UIButton+MultipleClick.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+MultipleClick.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A946D2DB1D78499C00A01805 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A946D2F41D78499C00A01805 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A946D2FF1D78499C00A01805 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A946D2D51D78499C00A01805 = {
+			isa = PBXGroup;
+			children = (
+				A946D2E01D78499C00A01805 /* ButtonMultipleClick */,
+				A946D2FA1D78499C00A01805 /* ButtonMultipleClickTests */,
+				A946D3051D78499C00A01805 /* ButtonMultipleClickUITests */,
+				A946D2DF1D78499C00A01805 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A946D2DF1D78499C00A01805 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A946D2DE1D78499C00A01805 /* ButtonMultipleClick.app */,
+				A946D2F71D78499C00A01805 /* ButtonMultipleClickTests.xctest */,
+				A946D3021D78499C00A01805 /* ButtonMultipleClickUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A946D2E01D78499C00A01805 /* ButtonMultipleClick */ = {
+			isa = PBXGroup;
+			children = (
+				A946D2E41D78499C00A01805 /* AppDelegate.h */,
+				A946D2E51D78499C00A01805 /* AppDelegate.m */,
+				A946D2E71D78499C00A01805 /* ViewController.h */,
+				A946D2E81D78499C00A01805 /* ViewController.m */,
+				A946D3141D784A9F00A01805 /* UIButton+MultipleClick.h */,
+				A946D3151D784A9F00A01805 /* UIButton+MultipleClick.m */,
+				A946D2EA1D78499C00A01805 /* Main.storyboard */,
+				A946D2ED1D78499C00A01805 /* Assets.xcassets */,
+				A946D2EF1D78499C00A01805 /* LaunchScreen.storyboard */,
+				A946D2F21D78499C00A01805 /* Info.plist */,
+				A946D2E11D78499C00A01805 /* Supporting Files */,
+			);
+			path = ButtonMultipleClick;
+			sourceTree = "<group>";
+		};
+		A946D2E11D78499C00A01805 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A946D2E21D78499C00A01805 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A946D2FA1D78499C00A01805 /* ButtonMultipleClickTests */ = {
+			isa = PBXGroup;
+			children = (
+				A946D2FB1D78499C00A01805 /* ButtonMultipleClickTests.m */,
+				A946D2FD1D78499C00A01805 /* Info.plist */,
+			);
+			path = ButtonMultipleClickTests;
+			sourceTree = "<group>";
+		};
+		A946D3051D78499C00A01805 /* ButtonMultipleClickUITests */ = {
+			isa = PBXGroup;
+			children = (
+				A946D3061D78499C00A01805 /* ButtonMultipleClickUITests.m */,
+				A946D3081D78499C00A01805 /* Info.plist */,
+			);
+			path = ButtonMultipleClickUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A946D2DD1D78499C00A01805 /* ButtonMultipleClick */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A946D30B1D78499C00A01805 /* Build configuration list for PBXNativeTarget "ButtonMultipleClick" */;
+			buildPhases = (
+				A946D2DA1D78499C00A01805 /* Sources */,
+				A946D2DB1D78499C00A01805 /* Frameworks */,
+				A946D2DC1D78499C00A01805 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ButtonMultipleClick;
+			productName = ButtonMultipleClick;
+			productReference = A946D2DE1D78499C00A01805 /* ButtonMultipleClick.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A946D2F61D78499C00A01805 /* ButtonMultipleClickTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A946D30E1D78499C00A01805 /* Build configuration list for PBXNativeTarget "ButtonMultipleClickTests" */;
+			buildPhases = (
+				A946D2F31D78499C00A01805 /* Sources */,
+				A946D2F41D78499C00A01805 /* Frameworks */,
+				A946D2F51D78499C00A01805 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A946D2F91D78499C00A01805 /* PBXTargetDependency */,
+			);
+			name = ButtonMultipleClickTests;
+			productName = ButtonMultipleClickTests;
+			productReference = A946D2F71D78499C00A01805 /* ButtonMultipleClickTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		A946D3011D78499C00A01805 /* ButtonMultipleClickUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A946D3111D78499C00A01805 /* Build configuration list for PBXNativeTarget "ButtonMultipleClickUITests" */;
+			buildPhases = (
+				A946D2FE1D78499C00A01805 /* Sources */,
+				A946D2FF1D78499C00A01805 /* Frameworks */,
+				A946D3001D78499C00A01805 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A946D3041D78499C00A01805 /* PBXTargetDependency */,
+			);
+			name = ButtonMultipleClickUITests;
+			productName = ButtonMultipleClickUITests;
+			productReference = A946D3021D78499C00A01805 /* ButtonMultipleClickUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A946D2D61D78499C00A01805 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = cyy;
+				TargetAttributes = {
+					A946D2DD1D78499C00A01805 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+					A946D2F61D78499C00A01805 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = A946D2DD1D78499C00A01805;
+					};
+					A946D3011D78499C00A01805 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = A946D2DD1D78499C00A01805;
+					};
+				};
+			};
+			buildConfigurationList = A946D2D91D78499C00A01805 /* Build configuration list for PBXProject "ButtonMultipleClick" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A946D2D51D78499C00A01805;
+			productRefGroup = A946D2DF1D78499C00A01805 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A946D2DD1D78499C00A01805 /* ButtonMultipleClick */,
+				A946D2F61D78499C00A01805 /* ButtonMultipleClickTests */,
+				A946D3011D78499C00A01805 /* ButtonMultipleClickUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A946D2DC1D78499C00A01805 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A946D2F11D78499C00A01805 /* LaunchScreen.storyboard in Resources */,
+				A946D2EE1D78499C00A01805 /* Assets.xcassets in Resources */,
+				A946D2EC1D78499C00A01805 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A946D2F51D78499C00A01805 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A946D3001D78499C00A01805 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A946D2DA1D78499C00A01805 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A946D2E91D78499C00A01805 /* ViewController.m in Sources */,
+				A946D2E61D78499C00A01805 /* AppDelegate.m in Sources */,
+				A946D3161D784A9F00A01805 /* UIButton+MultipleClick.m in Sources */,
+				A946D2E31D78499C00A01805 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A946D2F31D78499C00A01805 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A946D2FC1D78499C00A01805 /* ButtonMultipleClickTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A946D2FE1D78499C00A01805 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A946D3071D78499C00A01805 /* ButtonMultipleClickUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A946D2F91D78499C00A01805 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A946D2DD1D78499C00A01805 /* ButtonMultipleClick */;
+			targetProxy = A946D2F81D78499C00A01805 /* PBXContainerItemProxy */;
+		};
+		A946D3041D78499C00A01805 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A946D2DD1D78499C00A01805 /* ButtonMultipleClick */;
+			targetProxy = A946D3031D78499C00A01805 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A946D2EA1D78499C00A01805 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A946D2EB1D78499C00A01805 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A946D2EF1D78499C00A01805 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A946D2F01D78499C00A01805 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A946D3091D78499C00A01805 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		A946D30A1D78499C00A01805 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A946D30C1D78499C00A01805 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ButtonMultipleClick/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.cyy.ButtonMultipleClick;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		A946D30D1D78499C00A01805 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ButtonMultipleClick/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.cyy.ButtonMultipleClick;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		A946D30F1D78499C00A01805 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = ButtonMultipleClickTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.cyy.ButtonMultipleClickTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ButtonMultipleClick.app/ButtonMultipleClick";
+			};
+			name = Debug;
+		};
+		A946D3101D78499C00A01805 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = ButtonMultipleClickTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.cyy.ButtonMultipleClickTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ButtonMultipleClick.app/ButtonMultipleClick";
+			};
+			name = Release;
+		};
+		A946D3121D78499C00A01805 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = ButtonMultipleClickUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.cyy.ButtonMultipleClickUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = ButtonMultipleClick;
+			};
+			name = Debug;
+		};
+		A946D3131D78499C00A01805 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = ButtonMultipleClickUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.cyy.ButtonMultipleClickUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = ButtonMultipleClick;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A946D2D91D78499C00A01805 /* Build configuration list for PBXProject "ButtonMultipleClick" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A946D3091D78499C00A01805 /* Debug */,
+				A946D30A1D78499C00A01805 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A946D30B1D78499C00A01805 /* Build configuration list for PBXNativeTarget "ButtonMultipleClick" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A946D30C1D78499C00A01805 /* Debug */,
+				A946D30D1D78499C00A01805 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		A946D30E1D78499C00A01805 /* Build configuration list for PBXNativeTarget "ButtonMultipleClickTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A946D30F1D78499C00A01805 /* Debug */,
+				A946D3101D78499C00A01805 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		A946D3111D78499C00A01805 /* Build configuration list for PBXNativeTarget "ButtonMultipleClickUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A946D3121D78499C00A01805 /* Debug */,
+				A946D3131D78499C00A01805 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A946D2D61D78499C00A01805 /* Project object */;
+}
