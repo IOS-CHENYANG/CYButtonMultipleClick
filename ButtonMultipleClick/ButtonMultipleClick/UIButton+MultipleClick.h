@@ -16,7 +16,7 @@
 @property (nonatomic,assign) NSTimeInterval timeInterval;
 
 /**
- *  是否忽略事件
+ *  记录上次点击时间
  */
 @property (nonatomic,assign) NSTimeInterval lastTime;
 
